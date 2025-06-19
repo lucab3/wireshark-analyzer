@@ -29,11 +29,11 @@ Este proyecto simula y analiza ataques web reales capturados en archivos PCAP. D
 ## 📸 Screenshots del Laboratorio
 
 ### Vista General del Proyecto
-![Project Structure](screenshots2/project-structure.png)
+![Project Structure](screenshots2/proyect-structure.png)
 *Estructura completa del laboratorio con directorios organizados para análisis forense*
 
 ### Archivos PCAP Generados
-![PCAP Files](screenshots2/pcap-files-overview.png)
+![PCAP Files](screenshots2/pcap-files.png)
 *Capturas de tráfico real con ataques web documentados: 566KB de ataques HTTP y 12KB de port scanning*
 
 ### Análisis Automatizado Completo
@@ -41,11 +41,11 @@ Este proyecto simula y analiza ataques web reales capturados en archivos PCAP. D
 *Script de análisis detectando automáticamente: 1 Directory Traversal, 1 XSS, 1 SQL Injection en 66 requests HTTP*
 
 ### Detección de Ataques Individuales
-![Attack Detection](screenshots2/individual-attack-detection.png)
+![Attack Detection](screenshots2/xss-attack-detection.png)
 *Filtros específicos mostrando payloads maliciosos: Directory Traversal (../../../etc/passwd) y XSS (<script>alert('XSS')</script>)*
 
 ### SQL Injection Decodificado
-![SQL Injection](screenshots2/sql-injection-decoded.png)
+![SQL Injection](screenshots2/sql-injection-detection.png)
 *Payload SQL injection decodificado: "username=admin'; DROP TABLE users;--" capturado en tráfico POST*
 
 ## 🚀 Setup y Uso
