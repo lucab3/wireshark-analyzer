@@ -262,23 +262,6 @@ tshark -r file.pcap -Y "http" -T fields -e ip.src
 - [ ] Dashboard web para visualización
 - [ ] API REST para análisis programático
 
-## 🎓 Skills Demostrados
-
-- **Network Protocol Analysis** - HTTP, TCP, DNS deep inspection
-- **Digital Forensics** - PCAP analysis and evidence extraction
-- **Attack Pattern Recognition** - Web application security threats
-- **Tool Proficiency** - Wireshark, tshark, tcpdump mastery
-- **Scripting & Automation** - Bash and Python for analysis
-- **Incident Response** - Systematic threat investigation
-- **Documentation** - Professional reporting and findings
-
-## 📚 Uso Educacional
-
-Este laboratorio es ideal para:
-- **Práctica de análisis forense**
-- **Entrenamiento en detección de amenazas**
-- **Simulación de incidentes**
-- **Validación de habilidades SOC**
 
 ## 🤝 Contribuir
 
